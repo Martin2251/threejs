@@ -23,4 +23,5 @@ light.position.set(1,1,1);
 scene.add(light);
 
 // set up the renderer
-const renderer = new THREE.WebGLRenderer()
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize(window.innerWidth, window.innerHeight);
